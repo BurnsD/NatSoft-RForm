@@ -20,7 +20,8 @@ for (let button of controlButtons) {
     //   input of symbol initiates second value
       else if (symbol) secondValue += btnValue
 
-      
-      display.innerText += btnValue
+
+      if (btnValue !== '=') display.innerText += btnValue
     })
   }
+
