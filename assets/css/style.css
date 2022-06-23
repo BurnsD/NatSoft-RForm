@@ -6,7 +6,7 @@
 
 body {
     /* until later */
-    color: #39a6b2;
+    
     font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -16,7 +16,7 @@ header {
     position: sticky;
     top: 0;
     padding: 20px 35px;
-    background-color: #39a6b2;
+    background-color: #0F0E11;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -33,7 +33,7 @@ header h1 {
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     font-weight: bold;
     font-size: 36px;
-    color: #fce138;
+    color: #fff;
     margin: 0;
 }
 
@@ -121,7 +121,7 @@ section {
 
 /* Homepage hero */
 .hero {
-    background-image: url("../images/hero-bg.jpg.jpg");
+    background-image: url(../images/hero.jpeg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -139,6 +139,7 @@ section {
     color: #fff;
     font-size: 18px;
     line-height: 1.3;
+    
   }
   .hero-cta h2 {
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -160,7 +161,7 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     background-color: #fce138;
     padding: 20px;
-    color: #024e76;
+    color: #23252D;
     border-style: solid;
     border-width: 3px;
     border-color: #024e76;
@@ -179,7 +180,7 @@ section {
 
 .form-input {
     border-radius: 10px;
-    border: 1px solid #024e76;
+    border: 1px solid #23252D;
     display: block;
     padding: 7px 15px;
     font-size: 16px;
@@ -200,15 +201,15 @@ section {
 /* Get running button */
 .hero-form button {
     border-radius: 10px;
-    color: #fce138;
-    background-color: #024e76;
+    color: #fff;
+    background-color: #3A3C44;
     border: none;
     padding: 10px 20px;
     font-size: 16px;
 }
 
 .hero-form button:hover {
-    background-color: #39a6b2;  
+    background-color: #2B2D35;  
   }
   
 
